@@ -28,4 +28,4 @@ venv10/
 
 archive/
 
-.vscode/
+.vscode/.env 
