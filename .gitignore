@@ -10,7 +10,7 @@ wheels/
 .venv
 # Virtual environment
 env/
-venv/
+venv10/
 
 # IDE/editor settings
 .vscode/
