@@ -14,7 +14,7 @@ class FlipkartScraper:
         os.makedirs(self.output_dir, exist_ok=True)
 
     def get_top_reviews(self,product_url,count=2):
-        """Get the top reviews for a product.
+        """Get the top reviews for a product. using undetected_chromedriver
         """
         options = uc.ChromeOptions()
         options.add_argument("--no-sandbox")
