@@ -11,3 +11,14 @@ dependencies = [
     "python-dotenv==1.1.1",
     "streamlit==1.49.1",
 ]
+
+# Optional: authors, license
+authors = [{name = "Yaseen Khan"}]
+license = [{text = "Proprietry"}]
+
+# Optional: CLI command (python pip install -e . ke baad yeh create hoga)
+[project.scripts]
+
+[tool.setuptools.packages.find]
+where = ["prod_assistant"]
+include = ["ecomm-prod=assistant"]

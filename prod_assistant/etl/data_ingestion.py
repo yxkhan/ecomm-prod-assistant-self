@@ -70,6 +70,7 @@ class DataIngestion:
     def transform_data(self):
         """
         Transform product data into list of LangChain Document objects.
+        creating custom document object to store in VDB
         """
         product_list = []
 
