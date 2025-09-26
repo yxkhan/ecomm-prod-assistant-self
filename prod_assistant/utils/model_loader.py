@@ -77,7 +77,7 @@ class ModelLoader:
             model_name = self.config["embedding_model"]["model_name"]
             log.info("Loading embedding model", model=model_name)
 
-            # Patch: Ensure an event loop exists for gRPC aio (only change from previou code)
+            # Patch: Ensure an event loop exists for gRPC aio
             try:
                 asyncio.get_running_loop()
             except RuntimeError:
