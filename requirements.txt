@@ -19,6 +19,6 @@ langgraph==0.6.7
 ragas
 langchain-mcp-adapters
 mcp
-ddgs
+ddgs     #duckduckgo search
 
 -e .
